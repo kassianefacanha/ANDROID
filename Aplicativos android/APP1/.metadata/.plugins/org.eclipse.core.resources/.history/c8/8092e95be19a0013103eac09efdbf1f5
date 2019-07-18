@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite o 1º numero:" />
+    <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@+id/etrum1"/>
+       
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite o 2º numero:" />
+     <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@+id/etrum2"/>
+       
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soma"
+        adroid:id="@id/soma" />
+        
+    <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado"/>
+     <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@+id/etr"/>
+       
+</LinearLayout>

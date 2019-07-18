@@ -1,0 +1,44 @@
+package br.com.calculadora;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.widget.*;
+import android.view.View;
+
+public class Main extends Activity {
+
+	EditText etnum1;
+	EditText etnum2;
+	EditText result;
+	Button somaa;
+	
+	
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        
+        etnum1 =(EditText)findViewById(R.id.etnum1);
+        etnum2 =(EditText)findViewById(R.id.etnum2);
+        soma =(EditText)findViewById(R.id.soma);
+       somaa =(Button)findViewById(R.id.somaa);
+        
+        
+        btenviar.setOnClickListener(new View.OnClickListener(){
+
+			@Override
+			public void onClick(View arg0) {
+			
+				tv1.setText("Olá Mundo!!!");
+				
+			}
+        	
+        	
+        	
+        	
+        
+    });
+
+
+    }}
+
